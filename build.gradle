@@ -1,0 +1,22 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+javafx {
+    version = '11'
+    modules = ['javafx.base', 'javafx.controls', 'javafx.fxml', 'javafx.graphics']
+}
+
+mainClassName = 'org.voc5.javafxclient.Main'
+
+group = 'org.voc5'
+description = 'javafx-client'
+sourceCompatibility = '11'
